@@ -1,0 +1,55 @@
+html{
+	
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	margin: 0px; 
+	padding: 0px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+body{
+	font-size: 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0px; 
+	padding: 0px 20px;
+	box-sizing:border-box;
+	background-color: #b3d4fc;
+}
+
+h1 { margin: 0 0 1em 0;  font-size: 1.7em; font-weight: normal; color: #FF5500;}
+h2 { margin: 0 0 .5em 0; font-size: 1.3em; }
+p { margin: 0 0 1em 0; }
+header { position: relative; height: 60px; margin: 0px; padding-top: 85px; background: url(../images/banner2.jpg) no-repeat left top; }
+header a.logo { width: 180px; height: 90px; position: absolute; top: 15px; left: 10px; background: url(../images/Ribo_Logo1.png) no-repeat 0px 0px; display: inline-block; }
+nav { background-color: rgba(0,0,0,.3); top: 117px; width: 100%}
+article { margin: 0px; padding: 25px; background-color: #fff; }
+aside { width: 200px; float: right; margin: 0px 0px 10px 40px; padding: 0px 0px 0px 20px; border-left: 2px solid #ccc; }
+aside p { color: #777; margin: 0px; }
+footer { font-size: .9em; border-top: 0px solid #ddd; margin: 0px; padding: 10px 25px 10px 10px; color: rgba(255,255,255,.4);}
+
+.clear { clear: both; line-height: 1px; }
+
+.page { max-width: 1500px; margin: 0px auto; padding: 0px; }
+.top_border { 
+	position: absolute;
+  	left: 0;
+ 	top: 0;
+  	height: 50px;
+  	width: 100% !important;
+  	background: #252a31;
+  	background: url(images/bg-dark-alpha.png);
+  	background: rgba(37, 42, 49, 0.97);
+  	background: #8a8A8A;
+}
+
+.dropzone {
+	border: 2px dashed #ccc;
+	width: 300px;
+	height: 200px;
+}
+

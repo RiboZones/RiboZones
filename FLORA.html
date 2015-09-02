@@ -1,0 +1,797 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="generator"
+    content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="google-site-verification" content="10iJqK4viLfNp2x38snMWWUr777nlEsmMH8y0bprnpk" />
+    <title>RiboZones - brought to you by RiboEvo @ Georgia Institute of Technology.</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="FLORA/style.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.dropmenu-1.1.4.js"></script>
+    <script type="text/javascript" src="js/template.js"></script>
+  </head>
+  <body>
+    <div id="HeaderDiv" class="page"></div>
+    <div id="MenuDiv" class="page"></div>
+    <div id="ContentDiv" class="page">
+      <div class="page">
+        <article>
+        <h1>FLORA Alignment</h1>
+        <!--
+                  <aside>
+            <h2>News</h2>
+            <p>RiboVision is undergoing a major update to be released sometime by the end of summer.</p>
+          </aside>//-->
+        <img src="FLORA/FLORA_logo.png" id="FLORA_logo" title="FLORA logo" alt="FLORA logo" />
+        <h2 class="FLORA_header">Reference</h2>
+        <p>FLORA is being provided on behalf of 
+        <a href="https://vivo.brown.edu/display/sgerbi" target="_blank">Susan A. Gerbi.</a> The publication is currently &quot;in
+        press&quot;. The preprint is available 
+        <a href="FLORA/Doris.SM.RNA.2015.Preprint.pdf" target="_blank">here</a> , and the Supplementary Information is available 
+        <a href="FLORA/Doris.SM.RNA.2015.Supplementary.pdf" target="_blank">here</a>.</p>
+        <p>Doris SM 
+        <i>, et al.</i> (2015) Universal and Domain-Specific Sequences in 23S-28S Ribosomal RNA Identified by Computational
+        Phylogenetics. 
+        <i>RNA</i> (in press). [ 
+        <a href="FLORA/Doris.SM.RNA.2015.Preprint.ris" target="_blank">Citation Manager</a>]</p>
+        <h2 class="FLORA_header">Introduction</h2>
+        <p>Welcome to the Full-Length Ribosomal RNA Organismal Alignment (FLORA) database- a global large subunit sequence
+        alignment with broad phylogenetic representation from each domain of life (Bacteria, Archaea, Eukarya) curated from the
+        source database 
+        <a href="http://www.arb-silva.de/projects/" target="_blank">SILVA</a> (Doris et al, 2015). The 23S-28S rRNA sequences in
+        FLORA are full-length, aligned according to secondary structure, and contain a single entry per species. This refinement
+        produced a library of large ribosomal subunit sequences containing 342 Eukaryotes, 915 Bacteria and 86 Archaea (figure
+        below).</p>
+        <h2 class="FLORA_header">Figure</h2>
+        <p class="centeredImage">
+          <img src="FLORA/FLORA_Tree_of_Life.png" id="FLORA_TOL" title="FLORA Tree of Life" alt="FLORA Tree of Life" />
+        </p>
+        <p>
+        <span style="font-weight:bold">Evolutionary distribution of eukaryotic ( 
+        <span style="color:#F7C528">yellow</span>), archaeal ( 
+        <span style="color:#38AF9B">green</span>), and bacterial ( 
+        <span style="color:#EC3841">red</span>) organisms.</span> The phylogenetic relationships of organisms whose 23S-28S rRNA
+        sequences were included in FLORA. The cladogram was derived from the 
+        <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">ARB/SILVA LSU Ref guide tree</a> using the 
+        <a href="http://itol.embl.de/" target="_blank">interactive tree of life (iTOL)</a> software platform. The number of species
+        included for each group is indicated by the number in the table, below.</p>
+        <table>
+          <tbody>
+            <tr class="top-row">
+              <td class="first-col"></td>
+              <td colspan="2">
+                <p style="color:#F7C528;">Eukarya</p>
+              </td>
+              <td></td>
+              <td colspan="2">
+                <p style="color:#38AF9B;">Archaea</p>
+              </td>
+              <td></td>
+              <td colspan="2">
+                <p style="color:#EC3841;">Bacteria</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>A</p>
+              </td>
+              <td>
+                <p>Diplomonads</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>2</em>
+                </p>
+              </td>
+              <td style="min-width:25px"></td>
+              <td>
+                <p>Methanobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>3</em>
+                </p>
+              </td>
+              <td style="min-width:25px"></td>
+              <td>
+                <p>Aquificae</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>4</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>B</p>
+              </td>
+              <td>
+                <p>Parabasalids</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>2</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Methanococci</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>5</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Thermotogae</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>10</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>C</p>
+              </td>
+              <td>
+                <p>Amoebozoa</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>2</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Korarchaeota</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>1</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Deinococcus-Thermus</p>
+              </td>
+              <td style="text-align: right;">
+                <p style="text-align: right;">
+                  <em>3</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>D</p>
+              </td>
+              <td>
+                <p>Rhizaria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>1</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Thermoprotei</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>14</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Chloroflexi</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>4</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>E</p>
+              </td>
+              <td>
+                <p>Rhodophyta</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>3</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Methanopyri</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>1</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Dictyoglomi</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>1</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>F</p>
+              </td>
+              <td>
+                <p>Embryophyta</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>100</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Thermococci</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>5</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Fusobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>5</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>G</p>
+              </td>
+              <td>
+                <p>Porifera</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>12</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Archaeoglobi</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>1</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Firmicutes</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>145</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>H</p>
+              </td>
+              <td>
+                <p>Fungi</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>70</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Thermoplasmata</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>3</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Tenericutes</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>22</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>I</p>
+              </td>
+              <td>
+                <p>Alveolata</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>34</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Thermoprotei</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>15</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Cyanobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>186</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>J</p>
+              </td>
+              <td>
+                <p>Stramenophiles</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>26</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Halobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>11</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Actinobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>64</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>K</p>
+              </td>
+              <td>
+                <p>Mollusca</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>11</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Methanomicrobia</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>34</em>
+                </p>
+              </td>
+              <td></td>
+              <td>
+                <p>Epsilonbacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>18</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>L</p>
+              </td>
+              <td>
+                <p>Platyhelminthes</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>24</em>
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>PVC-Planctobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>18</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>M</p>
+              </td>
+              <td>
+                <p>Chordata</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>6</em>
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Spirochaetes</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>43</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>N</p>
+              </td>
+              <td>
+                <p>Arthropoda</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>5</em>
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Acidobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>3</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>O</p>
+              </td>
+              <td>
+                <p>Nematoda</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>40</em>
+                </p>
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Synergistetes</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>2</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>P</p>
+              </td>
+              <td></td>
+              <td style="text-align: right;"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Deltaproteobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>23</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>Q</p>
+              </td>
+              <td></td>
+              <td style="text-align: right;"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Mitochondria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>36</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>R</p>
+              </td>
+              <td></td>
+              <td style="text-align: right;"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Alphaproteobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>89</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>S</p>
+              </td>
+              <td></td>
+              <td style="text-align: right;"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Betaproteobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>56</em>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td class="first-col">
+                <p>T</p>
+              </td>
+              <td></td>
+              <td style="text-align: right;"></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <p>Gammaproteobacteria</p>
+              </td>
+              <td style="text-align: right;">
+                <p>
+                  <em>179</em>
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 class="FLORA_header">FLORA Databases (Alignments)</h2>
+        <p>For each phylogenetic domain, raw unfiltered alignments and two structurally filtered alignments, as well as a merger
+        for the large subunit rRNA from the three domains of life, are available for download. Structural filters produce an
+        alignment wherein all columns are structurally homologous to the filtering organism, insertions are excluded, and deletions
+        are held by gaps. The Universal Merged FLORA merges all the domains of life in one alignment and contains only universal
+        positions.</p>
+        <table>
+          <tbody>
+            <tr class="top-row">
+              <td colspan="4">
+                <p>Filtered Alignments</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="min-width:150px">
+                <p>Eukaryotic</p>
+                <p>[
+                <em>S. cerevisiae</em>]</p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Eukaryotic</p>
+                <p>[
+                <em>A. thaliana</em>]</p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Archaeal</p>
+                <p>[
+                <em>H. marismortui</em>]</p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Archaeal</p>
+                <p>[
+                <em>S. solfataricus</em>]</p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Bacterial</p>
+                <p>[
+                <em>E. coli</em>]</p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Bacterial</p>
+                <p>[
+                <em>C. ramosum</em>]</p>
+              </td>
+			  <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr class="top-row">
+              <td colspan="4">
+                <div style="min-height:15px"></div>
+              </td>
+            </tr>
+            <tr class="top-row">
+              <td colspan="4">
+                <p>Unfiltered Alignments (gzipped)</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Eukaryotic</br></br></p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Archaeal</br></br></p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Bacterial</br></br></p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Universal</br></br></p>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">table (.txt)</a>
+              </td>
+              <td style="text-align: center; min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">clustal (.aln)</a>
+              </td>
+              <td style="text-align: center;min-width:100px;">
+                <a href="http://www.arb-silva.de/projects/living-tree/" target="_blank">FASTA (.fa)</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="clear-all"></div></article>
+      </div>
+      <div id="FooterDiv"></div>
+    </div>
+  </body>
+</html>

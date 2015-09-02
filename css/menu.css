@@ -1,0 +1,40 @@
+/*  CSS Document                             */
+/*  Written by Chris Converse for Lynda.com  */
+
+/* Dropdown Menus */
+
+	.nav_menu { position: absolute; z-index: 1000; margin: 0px; padding: 0px; }
+
+	/* drop menu */
+	.nav_menu .dropmenu { margin: 0; padding: 0; height: 28px; display: none; /* displays after menu load */ }
+	
+	/* all items  */
+	.nav_menu ul.dropmenu li { height: 28px; }
+	.nav_menu ul.dropmenu li:hover { background-color: #FF5500; }
+	.nav_menu ul.dropmenu li.selected { background-color: #700203; }
+	.nav_menu ul.dropmenu li a { color: #fff; text-decoration: none; padding: 0px; line-height: 12px; }
+	.nav_menu ul.dropmenu li.selected a { color: #ffd200; }
+	.nav_menu ul.dropmenu li.left_menu_item { float: left; }
+	.nav_menu ul.dropmenu li.right_menu_item { float: right; }
+
+	/* topitems */
+	.nav_menu ul.dropmenu { margin: 0px; padding: 0px; }
+	.nav_menu ul.dropmenu a.toplevel { height: auto; margin: 7px 20px 7px 20px; padding: 0px 0px 4px 0px; color: #fff; font-weight: bold; text-decoration: none; }
+	.nav_menu ul.dropmenu a.toplevel.hover { color: #fff; }
+	.nav_menu ul.dropmenu a.toplevel.selected { color: #f7ad0b; }
+	.nav_menu ul.dropmenu a.toplevel.hover.selected {  }
+	
+	/* subitems */
+	.nav_menu ul.dropmenu li ul { background-color: #FF5500; border-top: 1px solid #fff; }
+	.nav_menu ul.dropmenu li ul li a.sublevel { color: #fff; width: 150px; padding: 5px 5px 5px 20px; margin: 0px; }
+	.nav_menu ul.dropmenu li ul li a.sublevel.hover { color: #fff; background-color: #3baae3; }
+	.nav_menu ul.dropmenu li ul li a.sublevel.selected { color: #f7ad0b; }
+	.nav_menu ul.dropmenu li ul li a.sublevel.hover.selected {  }
+	
+	/* sub subitems */
+	.nav_menu ul.dropmenu li ul ul { left: -10px; border: none; border-left: 1px solid #fff; }
+	
+	/* Sub Menu Indicators */
+	.nav_menu ul.dropmenu a.indicator { background: url(../images/arrow_right.gif) no-repeat right 50%; }
+	.nav_menu ul.dropmenu a.toplevel.indicator { background: url(../images/arrow_down.gif) no-repeat 0px bottom; }
+

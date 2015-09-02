@@ -1,0 +1,49 @@
+.FLORA_header {
+	color:#79B941;
+	text-align: center;
+}
+
+#FLORA_TOL{
+	width:600px;
+}
+.centeredImage {
+	text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
+
+table {
+	border: 5px double #79B941;
+	margin: auto;
+	border-spacing:0px;
+	border-collapse:separate; 
+}
+
+tr.top-row p {
+	text-align: center;
+	font-weight:bold;
+	font-size:1.4em;
+	color:#005221;
+}
+
+tr.top-row td {
+	border-bottom: 4px double #79B941;
+}
+
+td.first-col{
+	border-right: 4px double #79B941;
+}
+
+td.first-col p{
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+tr td {
+	padding:2px;
+}
+
+tr p {
+	margin:0px;
+}
