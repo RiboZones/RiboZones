@@ -6,6 +6,10 @@
 #FLORA_TOL{
 	width:600px;
 }
+#FLORA_logo{
+	height:120px;
+}
+
 .centeredImage {
 	text-align:center;
     margin-top:0px;
@@ -47,3 +51,4 @@ tr td {
 tr p {
 	margin:0px;
 }
+
